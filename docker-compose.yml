@@ -1,0 +1,15 @@
+name: generacion-ejemplo
+
+services:
+  db:
+    container_name: database
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: JCDEV
+      POSTGRES_PASSWORD: 1441
+      POSTGRES_DB: db
+    ports:
+      - '8000:5432'
+    volumes:
+      - ./db_data:/var/lib/postgresql/data
