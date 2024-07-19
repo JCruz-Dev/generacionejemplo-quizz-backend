@@ -7,5 +7,5 @@ export default registerAs('database', () => ({
   username: process.env.DATABASE_USERNAME,
   password: process.env.DATABASE_PASSWORD,
   loggin: process.env.DATABASE_LOGGING,
-  sincronize: process.env.DATABASE_SICRONIZE,
+  synchronize: process.env.DATABASE_SYNCHRONIZE,
 }));

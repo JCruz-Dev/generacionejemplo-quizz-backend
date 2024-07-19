@@ -16,4 +16,5 @@ const config = {
     autoLoadEntities: true,
   }),
 } satisfies TypeOrmModuleAsyncOptions;
+
 export default config;
